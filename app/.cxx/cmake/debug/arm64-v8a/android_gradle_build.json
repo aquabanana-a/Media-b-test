@@ -1,0 +1,56 @@
+
+{
+	"buildFiles" : [ "C:/Android/Instories/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\Instories\\app\\.cxx\\cmake\\debug\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"BitmapOperationsMapper-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "BitmapOperationsMapper",
+			"buildCommand" : "C:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\Instories\\app\\.cxx\\cmake\\debug\\arm64-v8a --target BitmapOperationsMapper",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/AndroidSDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/AndroidSDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DBitmapOperationsMapper_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Android/Instories/app/src/main/cpp/domain/base/mapper/BitmapOperationsNativeMapper.cpp",
+					"workingDirectory" : "C:/Android/Instories/app/.cxx/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "C:/Android/Instories/app/build/intermediates/cmake/debug/obj/arm64-v8a/libBitmapOperationsMapper.so",
+			"toolchain" : "3430743689"
+		},
+		"YuvNativeMapper-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "YuvNativeMapper",
+			"buildCommand" : "C:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\Instories\\app\\.cxx\\cmake\\debug\\arm64-v8a --target YuvNativeMapper",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/AndroidSDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/AndroidSDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DYuvNativeMapper_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Android/Instories/app/src/main/cpp/domain/base/mapper/YuvNativeMapper.cpp",
+					"workingDirectory" : "C:/Android/Instories/app/.cxx/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "C:/Android/Instories/app/build/intermediates/cmake/debug/obj/arm64-v8a/libYuvNativeMapper.so",
+			"toolchain" : "3430743689"
+		}
+	},
+	"toolchains" : 
+	{
+		"3430743689" : 
+		{
+			"cCompilerExecutable" : "C:/AndroidSDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/AndroidSDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

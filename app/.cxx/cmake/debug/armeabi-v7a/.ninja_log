@@ -1,0 +1,5 @@
+# ninja log v5
+0	152	0	CMakeFiles/BitmapOperationsMapper.dir/src/main/cpp/domain/base/mapper/BitmapOperationsNativeMapper.cpp.o	6493292d259d8174
+153	251	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libBitmapOperationsMapper.so	26d068ce19c8a33d
+0	429	0	CMakeFiles/YuvNativeMapper.dir/src/main/cpp/domain/base/mapper/YuvNativeMapper.cpp.o	be7e3940a2fc9e0
+430	518	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libYuvNativeMapper.so	947e07f2c9e19bca

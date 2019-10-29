@@ -1,0 +1,4 @@
+C:/Android/Instories/app/.cxx/cmake/release/x86_64/CMakeFiles/YuvNativeMapper.dir
+C:/Android/Instories/app/.cxx/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
+C:/Android/Instories/app/.cxx/cmake/release/x86_64/CMakeFiles/BitmapOperationsMapper.dir
+C:/Android/Instories/app/.cxx/cmake/release/x86_64/CMakeFiles/edit_cache.dir

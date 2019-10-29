@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "C:\\Android\\Instories\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\Instories\\app\\.cxx\\cmake\\release\\x86 --target clean"
+  ],
+  "libraries": {
+    "YuvNativeMapper-Release-x86": {
+      "artifactName": "YuvNativeMapper",
+      "buildCommand": "C:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\Instories\\app\\.cxx\\cmake\\release\\x86 --target YuvNativeMapper",
+      "abi": "x86",
+      "output": "C:\\Android\\Instories\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\libYuvNativeMapper.so"
+    },
+    "BitmapOperationsMapper-Release-x86": {
+      "artifactName": "BitmapOperationsMapper",
+      "buildCommand": "C:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\Instories\\app\\.cxx\\cmake\\release\\x86 --target BitmapOperationsMapper",
+      "abi": "x86",
+      "output": "C:\\Android\\Instories\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\libBitmapOperationsMapper.so"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+[1/2] Building CXX object CMakeFiles/BitmapOperationsMapper.dir/src/main/cpp/domain/base/mapper/BitmapOperationsNativeMapper.cpp.o
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\x86_64\libBitmapOperationsMapper.so

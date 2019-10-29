@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "C:\\Android\\Instories\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\Instories\\app\\.cxx\\cmake\\debug\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "BitmapOperationsMapper-Debug-armeabi-v7a": {
+      "artifactName": "BitmapOperationsMapper",
+      "buildCommand": "C:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\Instories\\app\\.cxx\\cmake\\debug\\armeabi-v7a --target BitmapOperationsMapper",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Android\\Instories\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libBitmapOperationsMapper.so"
+    },
+    "YuvNativeMapper-Debug-armeabi-v7a": {
+      "artifactName": "YuvNativeMapper",
+      "buildCommand": "C:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\Instories\\app\\.cxx\\cmake\\debug\\armeabi-v7a --target YuvNativeMapper",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Android\\Instories\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libYuvNativeMapper.so"
+    }
+  }
+}

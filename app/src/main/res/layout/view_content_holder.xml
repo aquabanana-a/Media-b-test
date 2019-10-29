@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:id="@+id/ll_background"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#F0F0F0">
+
+    <LinearLayout android:id="@+id/vg_add"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_gravity="center">
+
+        <RelativeLayout android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal">
+
+            <ImageView android:id="@+id/iv_placeholder"
+                       android:layout_width="32dp"
+                       android:layout_height="32dp"
+                       android:layout_alignParentBottom="true"
+                       android:src="@drawable/ic_placeholder"
+                       android:tint="#C3C3C3"/>
+
+            <ImageView android:layout_width="24dp"
+                       android:layout_height="24dp"
+                       android:layout_alignParentTop="true"
+                       android:layout_marginTop="1dp"
+                       android:layout_marginLeft="19dp"
+                       android:tint="#393939"
+                       android:src="@drawable/ic_add_black_24dp"/>
+
+        </RelativeLayout>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:textColor="#C3C3C3"
+                  android:text="Pick\nimage or video"/>
+    </LinearLayout>
+
+    <View android:id="@+id/v_browse"
+          android:background="@drawable/selector_transparent_to_primary"
+          android:clickable="true"
+          android:focusable="true"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"/>
+
+    <com.jsibbold.zoomage.ZoomageView android:id="@+id/ziv_media"
+                                      android:visibility="gone"
+                                      android:layout_width="match_parent"
+                                      android:layout_height="match_parent"
+                                      android:scaleType="centerCrop"
+                                      app:zoomage_restrictBounds="false"
+                                      app:zoomage_animateOnReset="true"
+                                      app:zoomage_autoResetMode="NEVER"
+                                      app:zoomage_autoCenter="true"
+                                      app:zoomage_zoomable="true"
+                                      app:zoomage_translatable="true"
+                                      app:zoomage_minScale="0.2"
+                                      app:zoomage_maxScale="10"/>
+
+    <ImageView android:id="@+id/iv_close"
+               android:visibility="gone"
+               android:background="@drawable/selector_white_45_to_primary"
+               android:layout_marginRight="@dimen/margin_small"
+               android:layout_marginTop="@dimen/margin_small"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="right|top"
+               android:contentDescription="@null"
+               android:tint="@color/colorPrimary"
+               android:src="@drawable/ic_close_black_24dp"/>
+
+    <View android:id="@+id/v_border"
+          android:background="@drawable/bg_dashed_border"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"/>
+
+</FrameLayout>
